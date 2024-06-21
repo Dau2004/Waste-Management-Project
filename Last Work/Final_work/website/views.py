@@ -97,9 +97,9 @@ def admin_dashboard():
                            total_recycling=total_recycling,
                            users=users,
                            collections=collections)
-# Route for the about page
+# Route for the about page 
 def create_app():
     app = Flask(__name__)
    
     app.register_blueprint(views)
-    return app # Return the app instance
+    return app # Return the apps instance
