@@ -59,4 +59,4 @@ https://waste-management-1.onrender.com
 
 1. *Clone the repository*
    ```bash
-   git clone https://github.com/Dau2004/Waste-Management.git 
+  https://github.com/Dau2004/Waste-Management-Project.git
