@@ -9,7 +9,7 @@ DB_NAME = "database.db"
 
 # Function to create a Flask application
 def create_app():
-    # Creating an instance of Flask
+    # Creating an instance of Flask 
     app = Flask(__name__)
     # Setting the secret key for the Flask application
     app.config['SECRET_KEY'] = "helloworld"
@@ -18,7 +18,7 @@ def create_app():
     # Initializing the SQLAlchemy app
     db.init_app(app)
 
-    # Importing the views and auth modules from the current directory
+    # Importing the views and auth modules from the current directory.
     from .views import views
     from .auth import auth
     # Registering the blueprints for views and auth
