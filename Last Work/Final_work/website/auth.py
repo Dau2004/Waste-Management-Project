@@ -31,7 +31,7 @@ def login():
 
     return render_template("login.html", user=current_user)
 
-# Route for the sign up
+# Route for sign up
 @auth.route("/sign-up", methods=['GET', 'POST'])
 def sign_up():
     if request.method == 'POST':
