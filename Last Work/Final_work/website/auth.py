@@ -1,4 +1,4 @@
-# Importing necessary libraries
+# Importing necessary libraries to work on
 from flask import Blueprint, render_template, redirect, url_for, request, flash
 from . import db
 from .models import User,WasteCollection, RecyclingEffort
