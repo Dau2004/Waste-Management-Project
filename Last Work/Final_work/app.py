@@ -6,7 +6,7 @@ from website import create_app
     The app is then run in debugging mode.
 
     Usage:
-        - Run this script to start the Flask web application.
+        - Run this script to start the Flask web app.
 
     """
 if __name__ == "__main__":
